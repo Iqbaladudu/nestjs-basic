@@ -1,0 +1,17 @@
+POST  http://localhost:3000/users/create HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Baldfffud",
+    "email": "iqbal.adudu1@gmail.com",
+    "age": "22"
+}
+
+###
+
+GET http://localhost:3000/users/ HTTP/1.1
+Authorization: o
+
+###
+
+GET http://localhost:3000/users?sortDesc=true HTTP/1.1
